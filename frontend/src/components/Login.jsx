@@ -11,13 +11,13 @@ function Login() {
     <>
       <Header headerText="Giriş Yap" motto="Zaten Bir Hesabınız Var Mı?" />
       <div className="col-xs-12 col-md-6">
-        <form className="form-horizontal" id="addVenue" onSubmit={performClick}>
+        <form className="form-horizontal" id="Login" onSubmit={performClick}>
           <div className="form-group">
-            <label className="col-xs-10 col-sm-2 control-label">E-mail:</label>
+            <label className="col-xs-10 col-sm-2 control-label">Kullanıcı Adı:</label>
             <div className="col-xs-12 col-sm-10">
               <input
                 className="form-control"
-                name="email"
+                name="name"
               />
             </div>
           </div>
