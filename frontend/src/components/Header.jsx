@@ -2,7 +2,7 @@ function Header({headerText,motto}) {
     return (
         <div className="page-header">
         <div className="row">
-          <div className="col-lg-6">
+          <div className="col-lg-12">
             <h1>
               {headerText} <small>{motto}</small>
             </h1>

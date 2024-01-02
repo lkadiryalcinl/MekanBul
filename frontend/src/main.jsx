@@ -6,6 +6,8 @@ import Home from "./components/Home";
 import VenueDetail from "./components/VenueDetail";
 import AddComment from "./components/AddComment";
 import About from "./components/About";
+import Login from "./components/Login"
+import Register from "./components/Register"
 import Admin from "./components/Admin";
 import AddUpdateVenue from "./components/AddUpdateVenue";
 import PageNotFound from "./components/PageNotFound";
@@ -18,6 +20,8 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <Route path="venue/:id" element={<VenueDetail/>}/>
     <Route path="venue/:id/comment/new" element={<AddComment/>}/>
     <Route path="about" element={<About/>}/>
+    <Route path="login" element={<Login/>}/>
+    <Route path="register" element={<Register/>}/>
     <Route path="admin" element={<Admin/>}/>
     <Route path="admin/addupdate/venue/:id" element={<AddUpdateVenue/>}/>
     <Route path="admin/addupdate/venue/new" element={<AddUpdateVenue/>}/>
