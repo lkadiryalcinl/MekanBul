@@ -11,7 +11,7 @@ class VenueDataService {
   }
 
   getVenue(id) {
-    return http.get(`venues/${id}`);
+    return http.get(`/venues/${id}`);
   }
 
   addVenue(data) {

@@ -1,6 +1,6 @@
 import axios from "axios";
 export default axios.create({
-  baseURL: "http://localhost:3000/api",
+  baseURL: "https://mekan-bul-api-kadir-yalcin.vercel.app/api",
   headers: {
     "Accept": "application/json",
     "Content-Type": "application/json;charset=UTF-8"
