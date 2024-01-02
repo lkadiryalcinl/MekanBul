@@ -1,6 +1,6 @@
 # Mekabul React Front-End
 
-Vercel linki: [https://mekanbul-frontend-asimsinan.vercel.app](https://mekanbul-frontend-asimsinan.vercel.app)
+Vercel linki: [https://mekanbul-fe-kadir-yalcin.vercel.app](https://mekanbul-fe-kadir-yalcin.vercel.app)
 
 ## Bileşenler
 1. **Navbar:** Navigasyon Çubuğu
