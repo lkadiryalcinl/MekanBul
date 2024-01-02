@@ -23,4 +23,5 @@ process.on("SIGINT", () => {
   process.exit(0);
 });
 
-require("./venue")
+require("./venue");
+require("./user");

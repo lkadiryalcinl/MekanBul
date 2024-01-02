@@ -2,6 +2,7 @@ var express=require("express");
 var router=express.Router();
 var ctrlVenues=require("../controllers/VenueController");
 var ctrlComments=require("../controllers/CommentController");
+var ctrlAuth = require("../controllers/Auth");
 
 router
 .route("/admin")
@@ -27,5 +28,8 @@ router
 .get(ctrlComments.getComment)
 .put(ctrlComments.updateComment)
 .delete(ctrlComments.deleteComment);
+
+router.post("/signup", ctrlAuth.signUp);
+router.post("/login", ctrlAuth.login);
 
 module.exports=router;
