@@ -18,7 +18,7 @@ Süleyman Demirel Üniversitesi Bilgisayar Mühendisliği 3.Sınıf 1. Dönem We
 
 ## API istek Yönetimi
 
--- http_common.jsx dosyasındaki baseUrl linki: https://mekanbul-api-kadir-yalcin.vercel.app/api bu link sayesinde kod tekrarı yapmadan http istek linklerimizi verebiliriz.
+http_common.jsx dosyasındaki baseUrl linki: https://mekanbul-api-kadir-yalcin.vercel.app/api bu link sayesinde kod tekrarı yapmadan http istek linklerimizi verebiliriz.
 
 - ListAllVenues => "/admin" (GET) => listedeki tüm elemanları getirir.
 - nearbyVenues => "/venues?lat={a}&long={b}" (GET) => listedeki elemanları belirli bir enlem boylama göre getirir.
