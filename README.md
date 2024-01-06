@@ -28,3 +28,26 @@ http_common.jsx dosyasındaki baseUrl linki: https://mekanbul-api-kadir-yalcin.v
 - removeVenue => "/venues/{id}" (DELETE) => body kısmında herhangi bir veri iletmemize gerek yoktur id'si bilinen mekan DELETE requesti ile veri tabanından silinir.
 - login => "/login" (POST) => kullanıcı emaili ile şifresini alıp sistemde bu kullanıcı var ise bir saatlik jwt oluşturur. Bu token sayesinde sistemde belli erişim izinleri verilir.
 - register => "/register" (POST) => kullanıcıdan bilgilerini alıp sisteme kayıt eden istek
+
+
+## Anasayfa
+![image](https://github.com/lkadiryalcinl/MekanBul/assets/96176339/2ae48563-dccf-4c34-9992-44cba637c42f)
+
+## Mekan Detayı 
+![image](https://github.com/lkadiryalcinl/MekanBul/assets/96176339/8888b978-a38d-4e2c-8f73-29f952dbdb89)
+
+## Giriş Yap Sayfası
+![image](https://github.com/lkadiryalcinl/MekanBul/assets/96176339/6611a795-e9d6-41c2-aef0-452bbc3e6291)
+
+## Kayıt Ol Sayfası
+![image](https://github.com/lkadiryalcinl/MekanBul/assets/96176339/1e2b1cb7-8c84-42b1-b0ce-7788368c0e97)
+
+## Admin Sayfası
+![image](https://github.com/lkadiryalcinl/MekanBul/assets/96176339/4360130b-1a31-4571-aa15-2318bda319ca)
+
+## Admin - Güncelle Sayfası
+![image](https://github.com/lkadiryalcinl/MekanBul/assets/96176339/b790e197-c899-4f9f-a071-099a279ef6c9)
+
+## Admin - Yeni Mekan Ekle Sayfası 
+![image](https://github.com/lkadiryalcinl/MekanBul/assets/96176339/9e811311-3d3d-4386-a82c-f65ee2919ea4)
+
