@@ -15,3 +15,6 @@ Süleyman Demirel Üniversitesi Bilgisayar Mühendisliği 3.Sınıf 1. Dönem We
 6. Mongoose
 7. JWT
 8. PassportJs
+
+## API istek Yönetimi
+
