@@ -26,8 +26,8 @@ http_common.jsx dosyasındaki baseUrl linki: https://mekanbul-api-kadir-yalcin.v
 - addVenue => "/venues" (POST) => link üzerinden değil body üzerinden ekleyeceğimiz yeni mekanın verilerini iletiriz bu sayede  yeni mekanımız veritabanına eklenir.
 - updateVenue => "/venues/{id}" (PUT) => bir mekana ait hem yeni veriler body üzerinden iletilmeli aynı zamanda ise güncellenecek olan mekanın id'si verilmelidir bu sayede mekan güncellenir.
 - removeVenue => "/venues/{id}" (DELETE) => body kısmında herhangi bir veri iletmemize gerek yoktur id'si bilinen mekan DELETE requesti ile veri tabanından silinir.
-- login => "/login" (POST) => kullanıcı emaili ile şifresini alıp sistemde bu kullanıcı var ise bir saatlik jwt oluşturur. Bu token sayesinde sistemde belli erişim izinleri verilir.
-- register => "/register" (POST) => kullanıcıdan bilgilerini alıp sisteme kayıt eden istek
+- login => "/login" (POST) => kullanıcı emaili ile şifresini body aracılığı ile alıp sistemde bu kullanıcı var ise bir saatlik jwt oluşturur. Bu token sayesinde sistemde belli erişim izinleri verilir.
+- register => "/signup" (POST) => kullanıcıdan bilgilerini body aracışığı ile alıp sisteme kayıt eden istek
 
 
 ## Anasayfa
